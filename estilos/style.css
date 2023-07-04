@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    --cor0: #49a09d;
+    --cor1: #5f2c82;
+}
+#login{
+    max-width: 680px;
+    display: flex;
+}
+#login img{
+    max-width: 280px;
+}

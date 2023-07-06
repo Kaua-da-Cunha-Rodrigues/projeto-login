@@ -1,0 +1,53 @@
+/*
+Typical Device BreakPoints 2023
+Pequenas telas: até 600px
+Celular; de 600px até 768px
+Tablet 768px até 1023px; 
+Desktop 1024px ... 1365px;
+Telas Maiores (ex: TV): Acima de 1366px: 
+
+*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);    
+    }
+    section#login{
+        width: 90vw;
+        height: 280px;
+    }
+    section#login #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login #form{
+        float: right;
+        width: 70%;
+    }
+    section #form p.desc{
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1024px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);    
+    }
+    section#login{
+        width: 60%;
+        height: 350px;
+    }
+    section#login #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section#login #form{
+        float: left;
+        width: 50%;
+    }
+    section #form p.desc{
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+}

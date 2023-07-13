@@ -13,7 +13,7 @@ Telas Maiores (ex: TV): Acima de 1366px:
     }
     section#login{
         width: 90vw;
-        height: 280px;
+        height: 320px;
     }
     section#login #imagem{
         float: left;
@@ -35,7 +35,7 @@ Telas Maiores (ex: TV): Acima de 1366px:
     }
     section#login{
         width: 60%;
-        height: 350px;
+        height: 340px;
     }
     section#login #imagem{
         float: right;

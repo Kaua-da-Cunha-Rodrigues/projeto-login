@@ -24,14 +24,14 @@ section#login{
     width: 250px;
     height: 525px;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /*O que tiver fora da borda esconde*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease; /*Faz uma alteração suave*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 section #imagem{
     display: block;
@@ -56,11 +56,27 @@ form div.campoForm{
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border: 2px solid var(--cor1);
+    border-radius: 8px;
     margin: 5px 0;    
 }
 form div.campoForm label{
     display: none;
+}
+form div.campoForm i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;    
+}
+form div.campoForm input{
+    background-color: #b7e4e2;
+    width: calc(100% - 45px); /*Diminui com o tamanho do icone*/
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-13px); /*Move um pouco pra cima*/
 }
 form input[type=submit]{
     display: block;
